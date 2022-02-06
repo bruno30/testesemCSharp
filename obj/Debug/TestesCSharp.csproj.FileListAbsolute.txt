@@ -1,0 +1,8 @@
+C:\Users\bruno\source\repos\TestesCSharp\bin\Debug\TestesCSharp.exe.config
+C:\Users\bruno\source\repos\TestesCSharp\bin\Debug\TestesCSharp.exe
+C:\Users\bruno\source\repos\TestesCSharp\bin\Debug\TestesCSharp.pdb
+C:\Users\bruno\source\repos\TestesCSharp\obj\Debug\TestesCSharp.csproj.AssemblyReference.cache
+C:\Users\bruno\source\repos\TestesCSharp\obj\Debug\TestesCSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\bruno\source\repos\TestesCSharp\obj\Debug\TestesCSharp.csproj.CoreCompileInputs.cache
+C:\Users\bruno\source\repos\TestesCSharp\obj\Debug\TestesCSharp.exe
+C:\Users\bruno\source\repos\TestesCSharp\obj\Debug\TestesCSharp.pdb
