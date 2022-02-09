@@ -181,6 +181,7 @@ namespace TestesCSharp
             Console.WriteLine(valorNulo?.Length);/* quando o valor é nulo e vc usa somente o ponto da erro, tem que colocar o (?) 
                                                    para a nevageção ser mais segura , ou seja, não dê erro no console*/
 
+            /*
             Console.WriteLine("                                                                               ");
             Console.WriteLine("************************ Lendo dados do console **********************   ");
             Console.WriteLine("                                                                               ");
@@ -197,10 +198,45 @@ namespace TestesCSharp
 
             Console.WriteLine($"{nomeC} {idadeC} R$ {salarioC} ");
 
+            */
+
+            Console.WriteLine("                                                                               ");
+            Console.WriteLine("************************ Formantando numeros **********************   ");
+            Console.WriteLine("                                                                               ");
+
+            double valorc = 15.587;
+                Console.WriteLine("VALOR ANTES: "+valorc);
+               
+                Console.WriteLine(valorc.ToString("F2")); // define quantas casas decimais depois do ponto, F1 para 1, F2 para 2 etc..
+                Console.WriteLine(valorc.ToString("#.##"));
+                Console.WriteLine(valorc.ToString("C")); // aqui define para a moeda 
+                Console.WriteLine(valorc.ToString("P")); // valor em percentual
+
+            Console.WriteLine("Diferença usando culture Info, primeior em inglês depois o portugues"); // valor em percentual
+
+            CultureInfo cultura = new CultureInfo("en-US");
+            Console.WriteLine(valorc.ToString("C0", cultura));
+
+            CultureInfo cultura2 = new CultureInfo("pt-BR");
+            Console.WriteLine(valorc.ToString("C0", cultura2));
+
+            int inteiroTeste = 222;
+            Console.WriteLine(inteiroTeste.ToString("D10")); //aqui ele preenche ate completar 10 posições, ele preenche as posições com 0
 
 
-            
-             Console.ReadLine();
+
+
+            Console.WriteLine("                                                                               ");
+            Console.WriteLine("************************ CONVERSÕES **********************   ");
+            Console.WriteLine("                                                                               ");
+
+
+
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
