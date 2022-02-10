@@ -227,11 +227,25 @@ namespace TestesCSharp
 
 
             Console.WriteLine("                                                                               ");
-            Console.WriteLine("************************ CONVERSÕES **********************   ");
+            Console.WriteLine("************************ CONVERSÕES (conhecido como Cash  **********************   ");
             Console.WriteLine("                                                                               ");
 
+            int valorInteiro = 10;
+            double valorDecimal = valorInteiro;
+            Console.WriteLine(valorInteiro); // aqui recebo um valor inteiro e coloco em uma decimal, sem nenhum erro
 
+            double valorDecimal1 = 8.5;
+            int valorInteiro2 = (int)valorDecimal1;
+            Console.WriteLine(valorInteiro2); // aqui estou convertendo um decimal em um inteir, uso o int
 
+            string idadeString = "1025"; //aqui convertendo string em inteiro, podemos usar o Tryparse
+            int idadeConvertida = int.Parse(idadeString);
+            Console.WriteLine(idadeConvertida);
+
+            double peso = 83.7;
+            double altura = 1.90;
+            double imc = peso / Math.Pow(altura, 2); // uso do math com pow de potencia
+            Console.WriteLine(imc);
 
 
 
