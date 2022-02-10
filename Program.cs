@@ -250,6 +250,62 @@ namespace TestesCSharp
 
 
 
+
+            Console.WriteLine("                                                                               ");
+            Console.WriteLine("************************ Operadores Lógicos  **********************   ");
+            Console.WriteLine("                                                                               ");
+
+
+
+            var atividade1 = true;
+            var atividade2 = false;
+
+            var premio = atividade1 && atividade2; // , operador binário , AND,  opera em dois operandos
+            Console.WriteLine(premio);
+
+            var premio2 = atividade1 || atividade2; // , operador binário , OR,  opera em dois operandos
+            Console.WriteLine(premio2);
+
+            var premio3 = atividade1 ^ atividade2; // , operador binário ,  OR EXCLUSIVO,  opera em dois operandos
+            Console.WriteLine(premio3);
+
+            Console.WriteLine(!premio3); //aqui operador unários, negação lógica  atua em somente um operandos 
+
+
+
+            Console.WriteLine("                                                                               ");
+            Console.WriteLine("************************ Operadores de atribuição  **********************   ");
+            Console.WriteLine("                                                                               ");
+
+            var n1 = 1;
+             n1 += 10; // atribuição aditiva n1=n1+10
+             n1 -= 5; //atribução subtrativa
+            n1 *= 20; // multiplicativa
+            n1 /= 2; // divisiva 
+
+            Console.WriteLine(n1);
+
+            var  ac= 1;
+            ac++;  // ac = ac + 1 atribuição de incrementp
+            ac--; // atribuição de decremento
+            Console.WriteLine(ac);
+
+            Console.WriteLine("                                                                               ");
+            Console.WriteLine("************************ Operadores Unários  **********************   ");
+            Console.WriteLine("                                                                               ");
+
+
+
+
+
+
+
+
+
+
+
+
+
             Console.ReadLine();
         }
     }
