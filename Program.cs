@@ -286,7 +286,7 @@ namespace TestesCSharp
             Console.WriteLine(n1);
 
             var  ac= 1;
-            ac++;  // ac = ac + 1 atribuição de incrementp
+            ac++;  // ac = ac + 1 atribuição de incremento
             ac--; // atribuição de decremento
             Console.WriteLine(ac);
 
@@ -294,14 +294,28 @@ namespace TestesCSharp
             Console.WriteLine("************************ Operadores Unários  **********************   ");
             Console.WriteLine("                                                                               ");
 
+            var num3 = 1;
+            num3++; // esse ++ depois é chamado de pós fixado, ou seja, a atribuição de incremento vem depois
+            --num3; // chamado de pré fixado, a atribuição de incremento vem antes, OBS: aqui ela tem uma precedencia maior quando ela é comparada com o pós fixado
 
 
+            Console.WriteLine("                                                                               ");
+            Console.WriteLine("************************ Operadores ternarios  **********************   ");
+            Console.WriteLine("                                                                               ");
+
+            // é um operador condicional, expressão, um operando(1) e um outro aperando(2)
+            //o simbolos do operador ternario é: ? (interrogação) :(dois pontos), ou seja ternário
+            //exemplo nota >7 ? aprovado : reprovado
+             
+            var idadePessoa= 15;
+            string resultado = idadePessoa >= 18 ? "Maior de idade" : "Menor de idade";
+            Console.WriteLine(resultado);
 
 
-
-
-
-
+            var idadePessoa2 = 18;
+            var acompanhado = true;
+            string resultado2 = idadePessoa2 >= 18 && acompanhado ? "Maior de idade" : "Menor de idade, mas esta acompanhado";
+            Console.WriteLine(resultado2);
 
 
 
